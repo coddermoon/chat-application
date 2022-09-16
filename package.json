@@ -3,7 +3,9 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "build":"tailwindcss -i ./src/tailwind.css -o ./output/output.css --watch"
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/output.css --watch"
+  },
+  "dependencies": {
+    "daisyui": "^2.28.0"
   }
-
 }
